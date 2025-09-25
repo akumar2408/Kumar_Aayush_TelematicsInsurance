@@ -1,0 +1,2 @@
+- Pseudonymous driver_id, API-key on ingest/enrich, CORS restricted.
+- TODO: rate-limit, auth on reads, TLS in cloud, column-level PII policy.

@@ -1,0 +1,8 @@
+[
+  "distance_km",
+  "avg_speed",
+  "max_speed",
+  "harsh_brakes",
+  "night_ratio",
+  "speeding_events"
+]

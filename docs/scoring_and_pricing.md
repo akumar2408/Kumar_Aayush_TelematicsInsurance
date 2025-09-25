@@ -1,0 +1,3 @@
+- Rules: weighted sum → 0–100 (see models/feature_weights.json).
+- ML toggle: `USE_ML=true` enables RandomForest (baseline).
+- Pricing: base_premium × f(score) with caps.
