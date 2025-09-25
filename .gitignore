@@ -1,8 +1,25 @@
+# virtual env
 .venv/
+
+# local env vars
 .env
+
+# python caches
 **/__pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# OS/editor junk
 .DS_Store
-data/telematics.db
-telemetrics.db
-*.sqlite
+.vscode/
+.idea/
+
+# logs & coverage
+*.log
+.coverage
+htmlcov/
+
+# local databases (SQLite etc.)
+*.db
+*.sqlite*
+data/*.db
