@@ -213,7 +213,21 @@ rm -f data/telematics.db
 
 Re-start API and re-run the simulator.
 
-**References**
+Run the API and the simulator from the **same repo folder** and **same virtualenv**, using **two terminals**.
+
+**Terminal A — start API**
+
+Run the API and the simulator from the **same repo folder** and **same virtualenv**, using **two terminals**.
+
+```bash
+# from repo root
+source .venv/bin/activate
+# load env so DB_URL / USE_ML are visible to the process
+set -a; source .env; set +a
+python -m uvicorn src.backend.api.app:app --host 127.0.0.1 --port 8000
+```
+
+## 7) References
 ```bash
 Third-party libraries 
 - FastAPI (MIT) — https://fastapi.tiangolo.com/
