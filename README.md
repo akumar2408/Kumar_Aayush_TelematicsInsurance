@@ -213,5 +213,19 @@ rm -f data/telematics.db
 
 Re-start API and re-run the simulator.
 
+**References**
+```bash
+Third-party libraries 
+- FastAPI (MIT) — https://fastapi.tiangolo.com/
+- Uvicorn (BSD) — https://www.uvicorn.org/
+- SQLAlchemy (MIT) — https://www.sqlalchemy.org/
+- Pydantic (MIT) — https://docs.pydantic.dev/
+- scikit-learn (BSD-3) — https://scikit-learn.org/
+- Streamlit (Apache-2.0) — https://streamlit.io/
+- NumPy (BSD-3) — https://numpy.org/
+- Pandas (BSD-3) — https://pandas.pydata.org/
+- Requests (Apache-2.0) — https://requests.readthedocs.io/
+```
+
 ---
 
