@@ -213,7 +213,6 @@ rm -f data/telematics.db
 
 Re-start API and re-run the simulator.
 
-Run the API and the simulator from the **same repo folder** and **same virtualenv**, using **two terminals**.
 
 **Terminal A — start API**
 
