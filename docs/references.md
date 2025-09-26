@@ -8,7 +8,3 @@ Third-party libraries
 - NumPy (BSD-3) — https://numpy.org/
 - Pandas (BSD-3) — https://pandas.pydata.org/
 - Requests (Apache-2.0) — https://requests.readthedocs.io/
-
-Background reading (no code copied)
-- UBI/Telematics overview — [Your chosen articles/whitepapers]
-- Feature engineering for driver risk — [Your chosen resources]
